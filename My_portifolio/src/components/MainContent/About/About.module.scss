@@ -1,0 +1,42 @@
+#aboutContainer {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 3rem 1.5rem;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+
+    &:after {
+      content: "";
+
+      background: #5ba7d1;
+      height: 1px;
+      width: 15rem;
+      margin-top: 3rem;
+      margin-left: -8rem;
+    }
+  }
+
+  p {
+    color: #fff;
+    margin: 0 1.5rem 1rem;
+    line-height: 1.4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #aboutContainer {
+    h2 {
+      font-size: 1.5rem;
+      &:after {
+        width: 10rem;
+        margin-left: -6.3rem;
+      }
+    }
+  }
+}

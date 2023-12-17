@@ -1,0 +1,79 @@
+#portifolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 3rem;
+  margin-top: 2rem;
+  // background-color: #0e2b3b;
+  background-color: #04152d;
+
+  #linkedin1 {
+    &:hover {
+      color: #fff;
+      background-color: #0a66c2;
+    }
+  }
+
+  #github1 {
+    &:hover {
+      color: black;
+      background-color: #fff;
+    }
+  }
+
+  #whatsapp1 {
+    &:hover {
+      color: #fff;
+      background-color: #128c7e;
+    }
+  }
+
+  #pinIcon1 {
+    color: #5ba7d1;
+  }
+
+  #Email1 {
+    color: #5ba7d1;
+  }
+
+  #html {
+    color: #f16529;
+    border: 1px solid #f16529;
+  }
+
+  #css {
+    color: #1172b8;
+    font-size: 2rem;
+    border: 1px solid #1172b8;
+  }
+
+  #js {
+    color: #f0db4f;
+    font-size: 2rem;
+    border: 1px solid #f0db4f;
+  }
+
+  #react {
+    color: #6ad1fb;
+    font-size: 2rem;
+    border: 1px solid #6ad1fb;
+  }
+
+  #sass {
+    color: #cd6799;
+    font-size: 2rem;
+    border: 1px solid #cd6799;
+  }
+
+  #bootstrap {
+    color: #8034e4;
+    font-size: 2rem;
+    border: 1px solid #8034e4;
+  }
+}
+
+@media (max-width: 1200px) {
+  #portifolio {
+    flex-direction: column;
+  }
+}

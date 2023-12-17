@@ -1,0 +1,31 @@
+nav {
+  background-color: #5ba7d1;
+  color: #fff;
+  width: max-content;
+  border-radius: 3rem;
+  padding: 0.5rem 1.2rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  backdrop-filter: blur(15px);
+
+  a {
+    padding: 0.2rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+
+    &:hover {
+      color: #0b2447;
+    }
+  }
+
+  a.active {
+    //  background-color: #0b2447;
+    color: #0b2447;
+  }
+}

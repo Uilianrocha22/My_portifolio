@@ -1,0 +1,150 @@
+#projectsSection {
+  color: #fff;
+
+  max-width: 90%;
+  margin: 0 auto;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin: 3rem 4.5rem 2rem;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+
+    &:after {
+      content: "";
+
+      background: #5ba7d1;
+      height: 1px;
+      width: 16rem;
+      margin-top: 3rem;
+      margin-left: -13rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 0.1rem;
+
+    .projectCard {
+      display: flex;
+      flex-direction: column;
+
+      border: 1px solid #5ba7d1;
+
+      border-radius: 10px;
+      background-color: #0b2447;
+      box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.43);
+
+      padding: 1.3rem 1.5rem;
+      max-width: 345px;
+
+      img {
+        width: 280px;
+        height: 180px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.43);
+
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+      }
+
+      .titleCard {
+        margin-left: 0.8rem;
+
+        z-index: 99999;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1px solid #5ba7d1;
+      }
+
+      p {
+        margin-left: 0.8rem;
+        width: 90%;
+        margin-top: 0.9rem;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .btnLink {
+      padding: 0.3rem 1.5rem;
+      color: #fff;
+      background: linear-gradient(to bottom, #5ba7d1, #0e2b3b);
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 3rem;
+      margin-left: 0.9rem;
+
+      &:hover {
+        color: #0b2447;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #projectsSection {
+    .title {
+      font-size: 1.6rem;
+      margin: 2rem 4.5rem;
+
+      &:after {
+        margin-left: -11rem;
+        width: 12rem;
+      }
+    }
+    .projects {
+      .projectCard {
+        padding: 1.3rem 1.5rem;
+        max-width: 290px;
+        margin: 0 auto;
+
+        img {
+          width: 240px;
+          height: 140px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  #projectsSection {
+    .title {
+      font-size: 1.5rem;
+      margin-left: 4rem;
+
+      &:after {
+        margin-left: -10rem;
+        width: 12rem;
+      }
+    }
+    .projects {
+      .projectCard {
+        padding: 1.3rem 1.5rem;
+        max-width: 240px;
+        margin: 0 auto;
+
+        img {
+          width: 200px;
+          height: 100px;
+        }
+      }
+
+      .btnLink {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+div {
+  .Title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    // background: linear-gradient(90deg, #fff 0%, #5ba7d1 50%);
+    // background-size: 400% 100%;
+    // animation: degrade 10s linear infinite alternate;
+
+    // background-clip: text;
+    // -webkit-background-clip: text;
+    // color: transparent;
+
+    //-------------------------------
+
+    // width: 24ch;
+    // text-transform: uppercase;
+    // white-space: nowrap;
+    // overflow: hidden;
+    // animation: degrade 2s steps(24) infinite alternate;
+
+    padding: 4rem 4rem 0.5rem 4rem;
+  }
+}
+
+// @keyframes degrade {
+//   from {
+//     width: 0;
+//   }
+// }
+
+// @keyframes blinking {
+//   50% {
+//     border-radius: transparent;
+//   }
+// }
+
+@media (max-width: 1200px) {
+  div {
+    .Title {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 600px) {
+  div {
+    .Title {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  div {
+    .Title {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media (max-width: 360px) {
+  div {
+    .Title {
+      font-size: 1.3rem;
+    }
+  }
+}
+@media (max-width: 330px) {
+  div {
+    .Title {
+      font-size: 1.2rem;
+    }
+  }
+}

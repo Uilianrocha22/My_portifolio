@@ -1,0 +1,51 @@
+@import "../../../styles/variables.scss";
+
+#socialsNetworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+
+  .socialBtn {
+    padding: 0.8rem;
+    background-color: $bg-color-secondary;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    &:hover {
+      background-color: #5ba7d1;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  #socialsNetworks {
+    .socialBtn {
+      padding: 1rem;
+      font-size: 1.7rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #socialsNetworks {
+      .socialBtn {
+        padding: 0.8rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  @media (max-width: 390px) {
+    #socialsNetworks {
+      .socialBtn {
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+#mainContent {
+  background-color: #000000;
+  color: #fff;
+  height: 750px;
+  flex: 2 1 0;
+  flex-wrap: wrap;
+  border-radius: $container-border-radius;
+  box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.504);
+}
+
+@media (max-width: 1200px) {
+  #mainContent {
+    flex: 1 1 1;
+    height: 1000px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #mainContent {
+    height: 1000px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  #mainContent {
+    height: 1650px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 390px) {
+  #mainContent {
+    height: 1900px;
+    padding-bottom: 30px;
+  }
+}
