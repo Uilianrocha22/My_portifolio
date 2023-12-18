@@ -68,7 +68,11 @@ export default function Projects() {
       <h2 className={styles.title} id="projectsSection">
         Projetos
       </h2>
-      <div className={styles.projects}>
+      <div
+        className={`${
+          styles.projects
+        } ${"animate__animated animate__fadeInUp animate__delay-1s"}`}
+      >
         {projects.map((project, id) => {
           return (
             <div className={styles.projectCard} key={id}>

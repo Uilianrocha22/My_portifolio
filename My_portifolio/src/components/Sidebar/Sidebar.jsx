@@ -6,7 +6,10 @@ import styles from "./Sidebar.module.scss";
 
 export default function Sidebar() {
   return (
-    <aside id={styles.sidebar}>
+    <aside
+      className="animate__animated animate__fadeInLeft animate__delay-1s"
+      id={styles.sidebar}
+    >
       <img src={Avatar} alt="Uilian Oliveira" />
 
       <h1>Desenvolvedor Front-end</h1>
