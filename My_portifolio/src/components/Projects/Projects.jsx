@@ -37,7 +37,7 @@ const projects = [
     title: "Cardápio online",
     image: ` ${imgCardapioOnline}`,
     description:
-      "Aplicação de cardápio online projeto possui 4 páginas, incluindo um carrinho de compras e a finalização do pedido por WhatsApp.  ",
+      "Aplicação de cardápio online, projeto possui 4 páginas incluindo um carrinho de compras e a finalização do pedido por WhatsApp.  ",
     skills: ["Html", "Css", "Bootstrap", "Javascript"],
     demo: "https://uilianrocha22.github.io/Cardapio-Online/",
     source: "https://github.com/Uilianrocha22/Cardapio-Online",
