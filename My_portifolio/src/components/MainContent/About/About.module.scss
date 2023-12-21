@@ -26,6 +26,9 @@
     color: #fff;
     margin: 0 1.5rem 1rem;
     line-height: 1.4rem;
+
+    width: 90%;
+    text-align: left;
   }
 }
 
@@ -37,6 +40,13 @@
         width: 10rem;
         margin-left: -6.3rem;
       }
+    }
+    p {
+      margin: 0 1.5rem 1rem;
+      line-height: 1.4rem;
+
+      width: 85%;
+      text-align: left;
     }
   }
 }
