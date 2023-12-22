@@ -38,7 +38,7 @@ const projects = [
     title: "Calculadora-JS",
     image: ` ${imgCalculadora}`,
     description:
-      "Calculadora desenvolvida com Javascript puro, possui diversas funcionabilidades como troca de tema,  possibilidade de copiar o resultado para a área de transferência etc.  ",
+      "Calculadora desenvolvida com Javascript puro, possui diversas funcionabilidades como troca de tema, erro em valores inválidos etc.  ",
     skills: ["Html", "Css", "Javascript"],
     demo: "https://uilianrocha22.github.io/Calculadora_js/",
     source: "https://github.com/Uilianrocha22/Calculadora_js",
