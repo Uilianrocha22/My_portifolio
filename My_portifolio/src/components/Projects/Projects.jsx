@@ -1,6 +1,7 @@
 import imgCardapioOnline from "../../img/copiacardapioonline.png";
 import imgBarber from "../../img/imgBarbercopia2.png";
 import imgSnapclima from "../../img/imgSnapclima.png";
+import imgCalculadora from "../../img/img-calculadora.png";
 
 import styles from "./Projects.module.scss";
 
@@ -34,13 +35,12 @@ const projects = [
   },
   //--------------------------------------------------------
   {
-    title: "Cardápio online",
-    image: ` ${imgCardapioOnline}`,
-    description:
-      "Aplicação de cardápio online, projeto possui 4 páginas incluindo um carrinho de compras e a finalização do pedido por WhatsApp.  ",
-    skills: ["Html", "Css", "Bootstrap", "Javascript"],
-    demo: "https://uilianrocha22.github.io/Cardapio-Online/",
-    source: "https://github.com/Uilianrocha22/Cardapio-Online",
+    title: "Calculadora-JS",
+    image: ` ${imgCalculadora}`,
+    description: "Calculadora desenvolvida com Javascript puro.",
+    skills: ["Html", "Css", "Javascript"],
+    demo: "https://uilianrocha22.github.io/Calculadora_js/",
+    source: "https://github.com/Uilianrocha22/Calculadora_js",
   },
   {
     title: "Barber ",
