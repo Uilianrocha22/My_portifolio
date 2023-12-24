@@ -2,6 +2,7 @@ import imgCardapioOnline from "../../img/copiacardapioonline.png";
 import imgBarber from "../../img/imgBarbercopia2.png";
 import imgSnapclima from "../../img/imgSnapclima.png";
 import imgCalculadora from "../../img/img-calculadora.png";
+import imgTodoList from "../../img/imgTodoList.png";
 
 import styles from "./Projects.module.scss";
 
@@ -44,13 +45,13 @@ const projects = [
     source: "https://github.com/Uilianrocha22/Calculadora_js",
   },
   {
-    title: "Barber ",
-    image: ` ${imgBarber}`,
+    title: "To-Do-List",
+    image: ` ${imgTodoList}`,
     description:
-      "Um site para barbearia, designer moderno e intuitivo que possui diversas animações, integrado com WhatsApp e Google maps.",
+      "Projeto apresenta varias funcionabilidades úteis, como criação de tarefas, remoção, alteração, filtro e ordenação.",
     skills: ["Html", "Sass"],
-    demo: "https://uilianrocha22.github.io/barber/",
-    source: "https://github.com/Uilianrocha22/barber",
+    demo: "https://to-do-list-uilian.vercel.app/",
+    source: "https://github.com/Uilianrocha22/To-Do-List",
   },
   {
     title: "Snapclima",
