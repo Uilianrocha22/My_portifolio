@@ -53,15 +53,6 @@ const projects = [
     demo: "https://to-do-list-uilian.vercel.app/",
     source: "https://github.com/Uilianrocha22/To-Do-List",
   },
-  {
-    title: "Snapclima",
-    image: ` ${imgSnapclima}`,
-    description:
-      "Um site dinâmico integrado com Api OpenWeatherMap que consulta e exibe tempo e temperaturas de cidades.",
-    skills: ["Html", "Css", "Javascript"],
-    demo: "https://uilianrocha22.github.io/Snapclima/",
-    source: "https://github.com/Uilianrocha22/Snapclima",
-  },
 ];
 
 export default function Projects() {
