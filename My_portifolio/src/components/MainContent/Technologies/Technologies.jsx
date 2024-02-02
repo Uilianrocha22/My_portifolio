@@ -15,6 +15,7 @@ export default function Technologies() {
   return (
     <section id={styles.technologiesContainer}>
       <h2 id="tecnologiesContainer">Tecnologias</h2>
+
       <div className={styles.technologiesGrid}>
         {Tecnologies.map((tech) => (
           <div className={styles.technologyCard} id={tech.id} key={tech.id}>
