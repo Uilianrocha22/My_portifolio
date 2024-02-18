@@ -1,5 +1,5 @@
 import { DiHtml5, DiCss3, DiReact, DiJsBadge, DiSass } from "react-icons/di";
-import { FaBootstrap } from "react-icons/fa";
+import { FaBootstrap, FaGitAlt } from "react-icons/fa";
 import styles from "./Technologies.module.scss";
 
 const Tecnologies = [
@@ -9,6 +9,7 @@ const Tecnologies = [
   { id: "react", name: "React", icon: <DiReact /> },
   { id: "sass", name: "Sass", icon: <DiSass /> },
   { id: "bootstrap", name: "Bootstrap", icon: <FaBootstrap /> },
+  { id: "git", name: "Git", icon: <FaGitAlt /> },
 ];
 
 export default function Technologies() {
