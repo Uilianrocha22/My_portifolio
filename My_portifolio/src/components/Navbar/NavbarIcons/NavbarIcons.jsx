@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { GrCertificate } from "react-icons/gr";
 import { GoProjectRoadmap } from "react-icons/go";
 import { GrTechnology } from "react-icons/gr";
 
@@ -41,9 +40,6 @@ export default function NavbarIcons() {
         className={activeNav === "#projectsSection" ? `${styles.active}` : ""}
       >
         <GoProjectRoadmap />
-      </a>
-      <a href="#">
-        <GrCertificate />
       </a>
     </nav>
   );
