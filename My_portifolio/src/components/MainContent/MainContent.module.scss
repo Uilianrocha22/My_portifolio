@@ -10,7 +10,13 @@
   box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.504);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1402px) {
+  #mainContent {
+    height: 850px;
+  }
+}
+
+@media (max-width: 1202px) {
   #mainContent {
     flex: 1 1 1;
     height: 1000px;
@@ -18,23 +24,23 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1002px) {
   #mainContent {
     height: 1000px;
     padding-bottom: 30px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 710px) {
   #mainContent {
-    height: 1650px;
+    height: 1900px;
     padding-bottom: 30px;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 392px) {
   #mainContent {
-    height: 1900px;
+    height: 2100px;
     padding-bottom: 30px;
   }
 }
