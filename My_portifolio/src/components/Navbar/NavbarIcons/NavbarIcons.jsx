@@ -1,8 +1,4 @@
 import { useState } from "react";
-import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
-import { GoProjectRoadmap } from "react-icons/go";
-import { GrTechnology } from "react-icons/gr";
 
 import styles from "./NavbarIcons.module.scss";
 
@@ -16,14 +12,14 @@ export default function NavbarIcons() {
         className={activeNav === "#containerNavbar" ? `${styles.active}` : "#"}
         href="#containerNavbar"
       >
-        <AiOutlineHome />
+        Home
       </a>
       <a
         href="#aboutcontainer"
         onClick={() => setActiveNav("#aboutcontainer")}
         className={activeNav === "#aboutcontainer" ? `${styles.active}` : ""}
       >
-        <AiOutlineUser />
+        Sobre
       </a>
       <a
         href="#tecnologiesContainer"
@@ -32,14 +28,14 @@ export default function NavbarIcons() {
           activeNav === "#tecnologiesContainer" ? `${styles.active}` : ""
         }
       >
-        <GrTechnology />
+        Tecnologias
       </a>
       <a
         href="#projectsSection"
         onClick={() => setActiveNav("#projectsSection")}
         className={activeNav === "#projectsSection" ? `${styles.active}` : ""}
       >
-        <GoProjectRoadmap />
+        Projetos
       </a>
     </nav>
   );
